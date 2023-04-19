@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.row:hover .actions {
+  visibility: visible;
+}
+
+.actions {
+  visibility: hidden;
+}
+
+.child {
+  margin-left: 16px;
+}
